@@ -1,0 +1,165 @@
+.banner {
+    background: transparent url('../img/banner.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    height: 300px; /*show the photo selection*/
+    width: 100%; 
+    margin-bottom: 3em;
+    display: table;
+
+}
+
+    .banner-head {
+        display: table-cell;
+        vertical-align: middle;
+        margin-bottom: 0;
+
+    }
+.banner h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        line-height: 1.2em;
+        font-size: 4em;
+        color: #fff;
+        text-shadow: 0 1px 1px black;
+
+}
+
+td, th {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+table {
+    margin:0 auto;
+    }
+
+.pure-form-stacked {
+    margin: 4em auto;
+    max-width: 600px;
+
+}
+
+
+.l-content {
+    margin: 0 auto;
+}
+
+.suit-table {
+    border: 1px solid #ddd;
+    margin: 0.5em 0.5em;
+    padding: 0 0 2em;
+}
+
+.suit-tables {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 3.15em;
+    text-align: center;
+}
+
+.suit-table-list {
+    list-style-type: none;
+    margin: 0 0 1.5em;
+    padding: 0;
+    text-align: center;
+}
+
+.footer {
+    background: black;
+    color: #888;
+    text-align: center;
+}
+    .footer p {
+        color: #fff;
+    }
+.l-box {
+    padding: 0.5em  2em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+ul li { list-style:none; } 
+
+header {
+/*position:absolute;*/
+/*top:30%;*/
+margin:0 auto;
+z-index:10;
+max-width: 300px;
+/*border: solid 2px white;*/
+}
+
+#menu a {
+    text-decoration: none;
+}
+#menu a:hover{
+    color: #F93;
+}
+
+#menu li {
+    display: inline;
+    /*border: #ccc 2px solid;*/        /*float:left;*/
+    /*background: #FFF;
+    
+
+    padding:5px;
+    margin-right: 5px;
+
+    /*border-radius: 1em 3em 1em 3em;
+    -webkit-border-radius: 1em 3em 1em 3em;
+    -moz-border-radius: 1em 3em 1em 3em;*/
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top: 10px;
+    bottom: 10px;
+    left:0;
+    overflow: hidden;
+
+}
+/*Mask is set to 300% or 3 view windows/pages*/
+#mask {
+    width:400%;
+    height:100%;
+}
+/*each box is 33.33 or a third of 100*/
+.box {
+    width:25%;
+    height:100%;
+    float:left;
+}
+
+.content {
+    position: relative;
+    width: 500px;
+    /*top: 1%;*/
+    margin: 0 auto; /*center*/
+    padding: 15px;
+    background: rgba(255,255,255,0.3);
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+p {
+text-align: center;
+    }
